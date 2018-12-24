@@ -1,0 +1,107 @@
+object Form1: TForm1
+  Left = 30
+  Height = 494
+  Top = 118
+  Width = 523
+  Caption = 'Snake'
+  ClientHeight = 494
+  ClientWidth = 523
+  Color = clInactiveBorder
+  OnCreate = FormCreate
+  LCLVersion = '1.8.4.0'
+  object Button1: TButton
+    Left = 200
+    Height = 25
+    Top = 80
+    Width = 75
+    Caption = 'Start'
+    OnClick = Button1Click
+    TabOrder = 0
+  end
+  object Button2: TButton
+    Left = 200
+    Height = 25
+    Top = 320
+    Width = 75
+    Caption = 'Exit'
+    OnClick = Button2Click
+    TabOrder = 1
+    Visible = False
+  end
+  object Button3: TButton
+    Left = 440
+    Height = 25
+    Top = 469
+    Width = 40
+    Caption = 'Button3'
+    OnClick = Button3Click
+    TabOrder = 2
+  end
+  object Button5: TButton
+    Left = 360
+    Height = 25
+    Top = 469
+    Width = 40
+    Caption = 'Button5'
+    OnClick = Button5Click
+    TabOrder = 3
+  end
+  object Button6: TButton
+    Left = 400
+    Height = 25
+    Top = 469
+    Width = 40
+    Caption = 'Button6'
+    OnClick = Button6Click
+    TabOrder = 4
+  end
+  object Button4: TButton
+    Left = 400
+    Height = 25
+    Top = 440
+    Width = 40
+    Caption = 'Button4'
+    OnClick = Button4Click
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 453
+    Height = 15
+    Top = 40
+    Width = 29
+    Caption = 'Score'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 446
+    Height = 15
+    Top = 80
+    Width = 34
+    Caption = 'Label2'
+    ParentColor = False
+  end
+  object Button7: TButton
+    Left = 200
+    Height = 25
+    Top = 200
+    Width = 75
+    Caption = 'Write HighScore'
+    OnClick = Button7Click
+    TabOrder = 6
+  end
+  object Button8: TButton
+    Left = 200
+    Height = 25
+    Top = 160
+    Width = 75
+    Caption = 'map'
+    OnClick = Button8Click
+    TabOrder = 7
+  end
+  object Timer1: TTimer
+    Enabled = False
+    Interval = 100
+    OnTimer = Timer1Timer
+    top = 40
+  end
+end
